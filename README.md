@@ -20,16 +20,6 @@ This work is based on a hybrid quantum-classical decomposition of the wavefuncti
 
 ### 1. Hamiltonian Decomposition
 
-The full system Hamiltonian is decomposed as:
-
-$$
-\hat{H} = \hat{H}_A \otimes \mathbb{I}_B + \mathbb{I}_A \otimes \hat{H}_B + \hat{H}_{\text{int}} = \sum_j \hat{H}^{A,j} \otimes \hat{H}^{B,j}
-$$
-
-
-- $\hat{H}_A$, $\hat{H}_B$: act on **active** and **bath** subsystems  
-- $\hat{H}_{\text{int}}$: interaction terms across subsystems
-
 ---
 
 ### 2. Conditional Wavefunction Ansatz
