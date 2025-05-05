@@ -93,7 +93,7 @@ for eta_array, p_eta in eta_distribution:
     
     flax_model = ConditionalMLP(n_active=n_active, n_bath=n_bath)
 
-    # Mpdel Initialization
+    # Model Initialization
     dummy_sigma = jnp.zeros((1, n_active))
     dummy_eta = jnp.reshape(eta_array, (1, n_bath)) 
     dummy_input = jnp.concatenate([dummy_sigma, dummy_eta], axis=-1)
