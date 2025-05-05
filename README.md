@@ -26,8 +26,8 @@ $$
 \hat{H} = \hat{H}_A \otimes \mathbb{I}_B + \mathbb{I}_A \otimes \hat{H}_B + \hat{H}_{\text{int}} = \sum_j \hat{H}^{A,j} \otimes \hat{H}^{B,j}
 $$
 
-- \( \hat{H}_A \), \( \hat{H}_B \): act on **active** and **bath** subsystems  
-- \( \hat{H}_{\text{int}} \): interaction terms across subsystems
+- $\hat{H}_A$, $\hat{H}_B$: act on **active** and **bath** subsystems  
+- $\hat{H}_{\text{int}}$: interaction terms across subsystems
 
 ---
 
